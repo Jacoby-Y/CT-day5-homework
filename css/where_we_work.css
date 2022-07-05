@@ -1,0 +1,139 @@
+html{
+    background-image: url(../images/nza_background.jpg);
+    height:100%;
+}
+
+body{
+    background-color:white;
+    margin-top:40px;
+    margin-left:140px;
+    margin-right:140px;
+    height:90%;
+}
+
+main{
+    display:flex;
+    width:70%;
+    margin:auto;
+    margin-top:40px;
+    height:90%;
+
+}
+
+.left{
+    background-color:#81302C;
+    color:white;
+    height:60%;
+    width:500px;
+    height:350px;
+    position:relative;
+    top:130px;
+    text-align:center;
+}
+
+.f-states{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    height:40vh;
+}
+
+.states{
+    width:100%;
+    margin-right:25px;
+}
+
+.countires{
+    font-size:bold;
+}
+
+.center p{
+    padding-top:0;
+    margin:10px;
+    height:20px;
+}
+
+.center{
+    display:grid;
+    grid-template-columns: .5fr, 1fr;
+    grid-template-rows: 2;
+    gap:10px;
+    position:relative;
+    top:120px;
+    margin-bottom:100px;
+}
+
+.inter{
+    grid-column:2;
+    grid-row:2;
+}
+
+.center p{
+    grid-column:1, 2;
+    grid-row:1;}
+
+.states{
+    grid-column:1;
+    grid-row:2;
+}
+
+footer{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    align-items:center;
+    
+}
+
+footer{
+    position:relative;
+    top:-70px;
+    border-top:1px solid black;
+}
+
+footer .divider{
+    border:1px solid black;
+    height:0;
+    width:10px;
+    align-items:center;
+
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    gap:10px;
+    align-items:center;
+    position:relative;
+    top:150px;
+}
+
+header .divider{
+    border:1px solid black;
+    height:10px;
+}
+
+header{
+    border-bottom:3px solid black;
+    border-top:3px solid black;
+    width:70%;
+    margin-left:190px;
+}
+
+.login{
+    display:flex;
+    justify-content:flex-end;
+    position:absolute;
+    right:1%;
+    bottom:291%;
+    border: 1px solid black;
+    border-radius:10px;
+    background-color: rgb(223, 217, 217);
+    width:10px;
+}
+
+.login li{
+    list-style-type: none;
+    background-color: rgb(223, 217, 217);
+}
+    
